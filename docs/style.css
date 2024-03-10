@@ -74,14 +74,20 @@
 .page-body{
     margin: 10px;
 }
+.col {
+    float: left;
+    width: 32.5%;
+    padding: 5px;
+}
 .offers {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
+    gap: 20px;
     padding: 15px;
+    display: table;
+}
+.i {
+    width: 100%;
 }
 .home-page-footer {
     display: flex;
